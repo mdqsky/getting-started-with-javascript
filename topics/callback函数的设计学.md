@@ -76,7 +76,7 @@ fs.readdir('path', function(err, files) {
 ```javascript
 // 读取某个文件内容
 fs.readFile('file_path', function(err, file) {
-   if (error) {
+   if (err) {
        return;
    }
 
